@@ -66,9 +66,8 @@ static const struct arg args[] = {
         { vol_perc, "[VOL %3s%%]", "/dev/mixer1" },
 	{ cpu_perc, " [CPU %3s%%]", NULL    },
         { ram_perc, " [RAM %3s%%]", NULL    },
-        { battery_perc, " [BAT %3s%%", "BAT0" },
-        { battery_state, " %s]", "BAT0" },
-	{ wifi_perc, " [NET %3s%%", "wlan0" },
-	{ wifi_essid, " %s]", "wlan0" },
+        { battery_perc, " [BAT %3s%%]", "BAT0" },
+	{ netspeed_rx, " [RX %8sB]", "wlan0" },
+	{ netspeed_tx, " [TX %8sB]", "wlan0" },
 	{ datetime, "%s", " %a %Y-%m-%d %H:%M" },
 };
